@@ -16,6 +16,10 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
+        <!--thymeleaf3.0需要布局依赖的支持，布局依赖2.0之后重写了逻辑对thymeleaf3.0进行支持-->
+        <thymeleaf-layout-dialect.version>2.4.1</thymeleaf-layout-dialect.version>
     </properties>
 
     <dependencies>
